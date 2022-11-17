@@ -1,0 +1,16 @@
+.navbar {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.btn_logout {
+  padding: 10px;
+  border: none;
+  background-color: brown;
+  color: #fff;
+  margin-left: 10px;
+  cursor: pointer;
+}
+.btn_logout:hover {
+  background-color: rgb(90, 8, 8);
+}

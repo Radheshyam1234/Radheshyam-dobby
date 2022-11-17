@@ -1,0 +1,37 @@
+.image_container {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.image_container img {
+  width: 300px;
+  height: 200px;
+}
+
+.image_container .image_wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.image_container .image_wrapper button {
+  padding: 10px;
+  background: cornflowerblue;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+}
+.image_container .image_wrapper button:hover {
+  background: rgb(17, 59, 136);
+}
+.search-bar {
+  margin: 10px;
+}
+.search-bar input {
+  outline: none;
+  padding: 8px;
+  border: 1px solid lightgray;
+  border-radius: 5px;
+}
