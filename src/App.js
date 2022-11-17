@@ -7,18 +7,6 @@ import { PrivateRoute } from "./Components/PrivateRoute";
 export default function App() {
   return (
     <div className="App">
-      {/* <Home /> */}
-      <ToastContainer
-        position="bottom-right"
-        autoClose={false}
-        newestOnTop={false}
-        closeOnClick
-        theme="colored"
-        rtl={false}
-        pauseOnFocusLoss
-        draggable
-      />
-
       <Routes>
         <Route
           path="/"
