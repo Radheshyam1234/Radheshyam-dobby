@@ -3,8 +3,7 @@ import { SignUp } from "./Components/Authentication/SignUp";
 import { Home } from "./Components/Homepage/Home";
 import { Routes, Route } from "react-router-dom";
 import { ToastContainer } from "react-toastify";
-import "react-toastify/dist/ReactToastify.css";
-import "./styles.css";
+
 import { PrivateRoute } from "./Components/PrivateRoute";
 
 export default function App() {
