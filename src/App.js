@@ -2,8 +2,6 @@ import { Login } from "./Components/Authentication/Login";
 import { SignUp } from "./Components/Authentication/SignUp";
 import { Home } from "./Components/Homepage/Home";
 import { Routes, Route } from "react-router-dom";
-import { ToastContainer } from "react-toastify";
-
 import { PrivateRoute } from "./Components/PrivateRoute";
 
 export default function App() {
